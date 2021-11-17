@@ -1,0 +1,34 @@
+// program menghitung luas segitiga
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    /*mengitung luas segitiga
+     L= (a*t)/2 
+     L= luas segitiga
+     a= panjang alas segitiga
+     t= tinggi segitiga
+    */
+    int a;
+    float L, t;
+    cout<<"Menghitung Luas Segitiga\n===================="<<endl;
+    cout<<"\nmasukan alas segitiga\t= ";
+    cin>>a;
+    cout<<"masukan tinggi\t\t= ";
+    cin>>t;
+    
+    L=(a*t)/2;
+    
+    cout<<"luas segitiga yang diketahui:"<<endl;
+    cout<<"alas \t= "<<a<<"cm"<<endl;
+    cout<<"tinggi\t= "<<t<<"cm"<<endl;
+    cout << "Rumus Luas \n";
+    cout << "L = (a X t):2\n";
+    cout << "L = ("<<a<< ") X (" << t <<"):2\n";
+    cout<<"maka luas segitiga adalah \t= "<< L <<" cm2"<< endl;
+    
+    cin.get();
+    return 0;
+}
